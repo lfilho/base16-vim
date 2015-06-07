@@ -13,21 +13,21 @@ endif
 
 " GUI color definitions
 let s:gui00 = "3d4650"
-let s:gui01 = "393939"
-let s:gui02 = "515151"
-let s:gui03 = "747369"
-let s:gui04 = "a09f93"
-let s:gui05 = "d3d0c8"
-let s:gui06 = "e8e6df"
-let s:gui07 = "f2f0ec"
-let s:gui08 = "f2777a"
-let s:gui09 = "f99157"
-let s:gui0A = "ffcc66"
-let s:gui0B = "99cc99"
-let s:gui0C = "66cccc"
-let s:gui0D = "6699cc"
-let s:gui0E = "cc99cc"
-let s:gui0F = "d27b53"
+let s:gui01 = "343d46"
+let s:gui02 = "4f5b66"
+let s:gui03 = "a7adba"
+let s:gui04 = "65737e"
+let s:gui05 = "dfe1e8"
+let s:gui06 = "c0c5ce"
+let s:gui07 = "eff1f5"
+let s:gui08 = "E56874"
+let s:gui09 = "d08770"
+let s:gui0A = "D0C980"
+let s:gui0B = "8bcb70"
+let s:gui0C = "ebe28d"
+let s:gui0D = "5FB3CD"
+let s:gui0E = "b48ead"
+let s:gui0F = "ab7967"
 
 " Terminal color definitions
 let s:cterm00 = "00"
@@ -239,7 +239,7 @@ call <sid>hi("DiffRemoved",  s:gui08, s:gui00,  s:cterm08, s:cterm00, "")
 " Git highlighting
 call <sid>hi("gitCommitOverflow",  s:gui08, "", s:cterm08, "", "")
 call <sid>hi("gitCommitSummary",   s:gui0B, "", s:cterm0B, "", "")
-  
+
 " GitGutter highlighting
 call <sid>hi("GitGutterAdd",     s:gui0B, s:gui01, s:cterm0B, s:cterm01, "")
 call <sid>hi("GitGutterChange",  s:gui0D, s:gui01, s:cterm0D, s:cterm01, "")
